@@ -65,6 +65,24 @@
             margin-bottom: 20px;
         }
 
+        /* Red Frame for Review Offer */
+        .review-frame {
+            background-color: #ff0000; /* Red background */
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+        .review-frame:hover {
+            background-color: #cc0000; /* Slightly darker red on hover */
+        }
+
         /* Link Styles */
         .link {
             display: block;
@@ -107,6 +125,11 @@
             <img src="https://www.js-restaurant.com/wp-content/uploads/2024/06/logo-js.svg" alt="J'S Restaurant & Lounge Logo">
         </div>
 
+        <!-- Red Frame with Offer -->
+        <div class="review-frame" onclick="window.location.href='https://g.co/kgs/Gcmu7EM'">
+            Review & Get a Free Drink
+        </div>
+
         <!-- Intro Text -->
         <p>
             Experience a perfect beachfront dining getaway at J'S Restaurant & Lounge. Enjoy our innovative European cuisine, crafted with fresh local ingredients and complemented by a fine selection of wines. Book your table for a luxurious dining experience today.
@@ -122,5 +145,12 @@
         <!-- Footer -->
         <footer>© 2024 J'S Restaurant & Lounge. Your perfect beachfront dining destination.</footer>
     </div>
+
+    <script>
+        // Confirmation message for review submission (Optional)
+        function showReviewConfirmation() {
+            alert("Thank you for your review! Use the code DRINKCODE for your free drink.");
+        }
+    </script>
 </body>
 </html>
