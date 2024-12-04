@@ -71,4 +71,81 @@
             cursor: pointer;
             text-transform: uppercase;
             display: inline-block;
-            
+            transition: background-color 0.3s ease;
+        }
+
+        .review-frame:hover {
+            background-color: #cc0000;
+        }
+
+        /* Intro Text */
+        p {
+            font-size: 14px;
+            color: #dddddd;
+            margin-bottom: 20px;
+        }
+
+        /* Link Styles */
+        .link {
+            display: block;
+            background-color: #000000;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px;
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            transition: all 0.3s ease;
+            border-radius: 8px;
+        }
+
+        .link:hover {
+            background-color: #ff0000;
+            color: #000000;
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 8px 20px rgba(255, 0, 0, 0.5);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #bbbbbb;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Title -->
+        <h1>J'S Restaurant & Lounge</h1>
+        
+        <!-- Logo -->
+        <div class="logo">
+            <img src="https://www.js-restaurant.com/wp-content/uploads/2024/06/logo-js.svg" alt="J'S Restaurant & Lounge Logo">
+        </div>
+
+        <!-- Red Frame with Offer -->
+        <div class="review-frame" onclick="window.location.href='https://g.co/kgs/Gcmu7EM'">
+            Review & Get a Free Drink
+        </div>
+
+        <!-- Intro Text -->
+        <p>
+            Experience a perfect beachfront dining getaway at J'S Restaurant & Lounge. Enjoy our innovative European cuisine, crafted with fresh local ingredients and complemented by a fine selection of wines. Book your table for a luxurious dining experience today.
+        </p>
+
+        <!-- Links -->
+        <a href="https://www.js-restaurant.com/" target="_blank" class="link">Website - Book Now</a>
+        <a href="https://www.instagram.com/js.restaurant.lounge?igsh=NjlyNm02dmNkZHgzJ’S" target="_blank" class="link">Instagram</a>
+        <a href="https://g.co/kgs/Gcmu7EM" target="_blank" class="link">Google Maps</a>
+        <a href="https://www.tripadvisor.com/Restaurant_Review-g1179396-d25787825-Reviews-J_s_Restaurant_Lounge-Bophut_Ko_Samui_Surat_Thani_Province.html" target="_blank" class="link">TripAdvisor Reviews</a>
+        <a href="https://www.facebook.com/JS.restaurant.lounge?mibextid=ZbWKwL" target="_blank" class="link">Facebook</a>
+
+        <!-- Footer -->
+        <footer>© 2024 J'S Restaurant & Lounge. Your perfect beachfront dining destination.</footer>
+    </div>
+</body>
+</html>
